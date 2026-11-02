@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.colorpicker-wallpaper"
+          path="/org/gnome/shell/extensions/colorpicker-wallpaper/">
+    <key name="color" type="s">
+      <default>''</default>
+      <summary>Último color elegido (#rrggbb)</summary>
+    </key>
+    <key name="zoom" type="i">
+      <range min="6" max="32"/>
+      <default>12</default>
+      <summary>Tamaño en la lupa de cada píxel de la pantalla</summary>
+    </key>
+    <key name="previous-uri" type="s">
+      <default>''</default>
+      <summary>Fondo claro que había antes de poner el color</summary>
+    </key>
+    <key name="previous-uri-dark" type="s">
+      <default>''</default>
+      <summary>Fondo oscuro que había antes de poner el color</summary>
+    </key>
+    <key name="previous-options" type="s">
+      <default>'zoom'</default>
+      <summary>Ajuste de imagen que había antes de poner el color</summary>
+    </key>
+    <key name="previous-primary-color" type="s">
+      <default>'#000000'</default>
+      <summary>Color primario que había antes de poner el color</summary>
+    </key>
+    <key name="previous-animated" type="b">
+      <default>false</default>
+      <summary>Si el fondo animado estaba activo antes de poner el color</summary>
+    </key>
+  </schema>
+</schemalist>

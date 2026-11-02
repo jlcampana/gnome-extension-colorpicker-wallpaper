@@ -1,0 +1,8 @@
+{
+  "uuid": "colorpicker-wallpaper@jlcampana.github.io",
+  "name": "Fondo de color",
+  "description": "Botón en Ajustes rápidos con un gotero y una lupa para elegir cualquier color de la pantalla y ponerlo como fondo de escritorio. Si el fondo animado está activo, lo desactiva para usar el color como imagen.",
+  "settings-schema": "org.gnome.shell.extensions.colorpicker-wallpaper",
+  "url": "https://github.com/jlcampana/gnome-extension-colorpicker-wallpaper",
+  "shell-version": ["50", "51"]
+}
